@@ -1,4 +1,4 @@
-# Part 1 - Introduction & Configuration Persistent Volumes (PV/PVC) on OpenShift Advanced Container Platform / Kubernetes
+# Part 1 - Introduction & Configuration Storage Class & Persistent Volumes (PV/PVC) on OpenShift Advanced Container Platform / Kubernetes
 
 First of all, if you are on the Red Hat side, you can easily setup this using NFS-Ganesha on Gluster FS or Ceph FS
 
