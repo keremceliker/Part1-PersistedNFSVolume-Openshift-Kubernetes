@@ -1,5 +1,12 @@
 # Part 1 - Introduction & Configuration Storage Class & Persistent Volumes (PV/PVC) on OpenShift Advanced Container Platform / Kubernetes
 
+*Written by Kerem ÇELİKER*
+- Linkedin: **`linkedin.com/in/keremceliker`**
+- Twitter: **`@CloudRss`**
+- Blog: **`www.keremceliker.com`**
+
+
+
 First of all, if you are on the Red Hat side, you can easily setup this using NFS-Ganesha on Gluster FS or Ceph FS
 
 I definetely tested the Persistent Volume with NFS method with so many Vendors such as Qumulo, Pure Storage, Scality, Cohesity, Nutanix File, Isilon, Hitachi and Rubrik. It works seamlessly with all of them but version and software updates make differences as you know. That's why my reviews don't bind Vendors, they're based on my own testing and technical experience...
