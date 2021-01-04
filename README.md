@@ -63,6 +63,11 @@ Therefore the container file system is not persisted during restarts...
 
 **The life cycle of PersistentVolumeClaim/PersistentVolume resources is roughly divided into four stages:**
 
+<img src="https://github.com/keremceliker/Part1-PersistedNFSVolume-Openshift-Kubernetes/blob/main/storage_gluster_managed_pv.png"> 
+
+
+
+
 **Provision:** Create a PersistentVolume resource and the corresponding storage resource in the storage scheme used by this PersistentVolume
 
 **Bind:** Establish a one-to-one correspondence between the most suitable PerisistentVolume and the PerisistentVolumeClaim created by the user.
