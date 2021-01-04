@@ -9,7 +9,7 @@
 
 # INTRODUCTION
 
-First of all, if you are on the Red Hat side, you can easily setup this using NFS-Ganesha on Gluster FS or Ceph FS
+First of all, if **you are on the Red Hat side**, you can easily setup this using **NFS-Ganesha on Gluster FS or Ceph FS**
 
 I definetely tested the Persistent Volume with NFS method with so many Vendors such as **Qumulo, Pure Storage, Scality, Cohesity, Nutanix File, Isilon, Hitachi and Rubrik**. It works seamlessly with all of them but version and software updates make differences as you know. That's why my reviews don't bind Vendors, It's based on my own testing and technical experience...
 
@@ -66,14 +66,13 @@ Therefore the container file system is not persisted during restarts...
 
 **Mount:** Finally complete the remaining initialization steps of this PerisistentVolume on this machine, and mount it to a certain path for the actual use of the subsequent started container.
 
-So once the use of PersistentVolumeClaim is abnormal (the pod using pvc cannot be started because the pvc initialization is unsuccessful), it is difficult for us to troubleshoot the problem. So the launch of this tool can help us quickly determine the problem of PersistentVolumeClaim.
+So once the use of PersistentVolumeClaim is abnormal **(the pod using pvc cannot be started because the pvc initialization is unsuccessful)**, it is difficult for us to troubleshoot the problem. So the launch of this tool can help us quickly determine the problem of PersistentVolumeClaim.
+
+# IMPORTANT NOTICE 
 
 I know its a little bit more complicated is the storage class but in Part 2, I'll be conveying in the simplest way how this is configured and used for sure.
 
-
-
-
-References :
+# References :
 
 https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
 
