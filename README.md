@@ -91,6 +91,7 @@ I know its a little bit more complicated is the storage class but in Part 2, I'l
 
 https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
 
+https://care.qumulo.com/hc/en-us/articles/115008054987-NFS-Exports-with-Multiple-IP-Restrictions-and-User-Mappings
 
 
 
