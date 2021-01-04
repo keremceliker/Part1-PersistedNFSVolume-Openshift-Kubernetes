@@ -17,6 +17,12 @@ However, with other vendors such as the link below that I shared last time in li
 
 # INTEGRATION with QUMULO or Another X-Vendors
 
+**EXAMPLE QUMULO DASHBOARD**
+
+<img src="https://qumulo.com/wp-consss> 
+
+https://qumulo.com/wp-content/uploads/2018/07/2-10-1024x462.png
+
 As I provided you before, I was going to introduce on to Qumulo last time. But you can do it with similar methods with other vendors. However, the Level of Difficulty to which this work is Easy is relative to each by Vendors :)
 
 Anyway, Firstly you must start to **Create NFS Export on Qumulo Storage**
