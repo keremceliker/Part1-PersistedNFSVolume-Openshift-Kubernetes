@@ -15,7 +15,7 @@ I definetely tested the Persistent Volume with NFS method with so many Vendors s
 
 However, with other vendors such as the link below that I shared last time in linkedin post, I will show how you can do these operations on **Red Hat Openshift on VMware vSAN (NativeFS)**
 
-# INTEGRATION with QUMULO or Another X-Vendors
+# 🔩 INTEGRATION with QUMULO or Another X-Vendors
 
 **🖼 EXAMPLE QUMULO DASHBOARD**
 
