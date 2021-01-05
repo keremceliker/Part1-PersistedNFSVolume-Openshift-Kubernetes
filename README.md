@@ -35,22 +35,22 @@ https://care.qumulo.com/hc/en-us/articles/360000723928-Create-an-NFS-Export
 Im gonna be taking a look at persistent volumes what they are how we can use a persistent volume to store data in Openshift. Now Im gonna to take a look at a real life hands-on example.
 
 
-# WHAT IS THIS STATELESS & STATEFUL PROCESS IN KUBERNETES/OPENSHIFT FOR GOD SAKE ! :)
+# WHAT IS THIS STATELESS & STATEFUL PROCESS IN KUBERNETES/OPENSHIFT FOR GOD SAKE ! 😳
 
 **EXAMPLE ARCHITECTURE DIAGRAM**
 
 <img src="https://github.com/keremceliker/Part1-PersistedNFSVolume-Openshift-Kubernetes/blob/main/PV-PVC.jpg"> 
 
 
-**Let's forget about pods in kubernetes and containers for a second, please :)**
+**Let's forget about pods in kubernetes and containers for a second, please! 😊**
 
 What is state is normally just some form of data that our application needs in order to function now a container or pod or an application is just a process... There are 2 types of process that can run we can have a Stateless process and a Stateful process...
 
-**STATELESS PROCESS**
+**📍STATELESS PROCESS**
 
 Stateless process is a process that does not rely on state or data in order to function. It does not store any state or data in memory or the filesystem and stateless usually like micro-services can come and go as they keep we can destroy the process and recreate the process without impacting for your users.
 
-**STATEFUL PROCESS**
+**📍STATEFUL PROCESS**
 
 Statefull process relies on state in order to function they store states in only two places one is in the pure memory and the other is on disk. Memory allows fast access to your data and state and is usually used for caching application like ElasticSearch, Twistlock, PostgreSQL, Redis or Dynatrace w/MySQL and datastores rely on states in order to function and they store this either in memory for fast access but persistent they store it on disk the file system. It allows the database to come and go restore its state from disk. This meant its heavily reliance on the state in order to function.
 
@@ -83,13 +83,13 @@ Therefore the container file system is not persisted during restarts...
 
 So once the use of PersistentVolumeClaim is abnormal **(the pod using pvc cannot be started because the pvc initialization is unsuccessful)**, it is difficult for us to troubleshoot the problem. So the launch of this tool can help us quickly determine the problem of PersistentVolumeClaim.
 
-# IMPORTANT NOTICE 
+# ⚠️ IMPORTANT NOTICE 
 
 I know its a little bit more complicated is the storage class but in Part 2, I'll be conveying in the simplest way how this is configured and used for sure.
 
-# Part 2 Deeply Technical configuration will be mainly on the air this week !
+# 🚧 Part 2 Deeply Technical configuration will be mainly on the air this week !
 
-# References :
+# 📚 References :
 
 https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
 
