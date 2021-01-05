@@ -42,7 +42,7 @@ Im gonna be taking a look at persistent volumes what they are how we can use a p
 <img src="https://github.com/keremceliker/Part1-PersistedNFSVolume-Openshift-Kubernetes/blob/main/PV-PVC.jpg"> 
 
 
-**Let's forget about pods kubernetes and containers for a second, please :))**
+**Let's forget about pods in kubernetes and containers for a second, please :)**
 
 What is state is normally just some form of data that our application needs in order to function now a container or pod or an application is just a process... There are 2 types of process that can run we can have a Stateless process and a Stateful process...
 
