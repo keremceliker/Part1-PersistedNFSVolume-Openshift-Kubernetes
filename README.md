@@ -52,7 +52,7 @@ Stateless process is a process that does not rely on state or data in order to f
 
 **📍STATEFUL PROCESS**
 
-Statefull process relies on state in order to function they store states in only two places one is in the pure memory and the other is on disk. Memory allows fast access to your data and state and is usually used for caching application like ElasticSearch, Twistlock, PostgreSQL, Redis or Dynatrace w/MySQL and datastores rely on states in order to function and they store this either in memory for fast access but persistent they store it on disk the file system. It allows the database to come and go restore its state from disk. This meant its heavily reliance on the state in order to function.
+Statefull process relies on state in order to function they store states in only two places one is in the pure memory and the other is on disk. Memory allows fast access to your data and state and is usually used for caching application like `ElasticSearch, Twistlock, PostgreSQL, Redis or Dynatrace w/MySQL` and datastores rely on states in order to function and they store this either in memory for fast access but persistent they store it on disk the file system. It allows the database to come and go restore its state from disk. This meant its heavily reliance on the state in order to function.
 
 The filesystem is the only way for state to persist among reboot. So when a process a dies and gets re-created it reads that state back from the filesystem...
 
