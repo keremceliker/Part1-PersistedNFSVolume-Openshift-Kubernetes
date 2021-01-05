@@ -87,6 +87,8 @@ So once the use of PersistentVolumeClaim is abnormal **(the pod using pvc cannot
 
 I know its a little bit more complicated is the storage class but in Part 2, I'll be conveying in the simplest way how this is configured and used for sure.
 
+# Part 2 Deeply Technical configuration will be mainly on the air this week !
+
 # References :
 
 https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
