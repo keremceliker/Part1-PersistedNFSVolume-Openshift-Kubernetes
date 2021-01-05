@@ -7,7 +7,7 @@
 
 <img src="https://github.com/keremceliker/Part1-PersistedNFSVolume-Openshift-Kubernetes/blob/main/6B479D28-E7A9-42D5-88FB-E6E7C7386031.jpeg"> 
 
-# INTRODUCTION
+# 🧭 INTRODUCTION
 
 First of all, if **you are on the Red Hat side**, you can easily setup this using **NFS-Ganesha on Gluster FS or Ceph FS**
 
@@ -17,7 +17,7 @@ However, with other vendors such as the link below that I shared last time in li
 
 # INTEGRATION with QUMULO or Another X-Vendors
 
-**EXAMPLE QUMULO DASHBOARD**
+**🖼 EXAMPLE QUMULO DASHBOARD**
 
 <img src="https://github.com/keremceliker/Part1-PersistedNFSVolume-Openshift-Kubernetes/blob/main/qumulo_example.png"> 
 
@@ -37,7 +37,7 @@ Im gonna be taking a look at persistent volumes what they are how we can use a p
 
 # WHAT IS THIS STATELESS & STATEFUL PROCESS IN KUBERNETES/OPENSHIFT FOR GOD SAKE ! 😳
 
-**EXAMPLE ARCHITECTURE DIAGRAM**
+**📜 EXAMPLE ARCHITECTURE DIAGRAM**
 
 <img src="https://github.com/keremceliker/Part1-PersistedNFSVolume-Openshift-Kubernetes/blob/main/PV-PVC.jpg"> 
 
@@ -56,7 +56,7 @@ Statefull process relies on state in order to function they store states in only
 
 The filesystem is the only way for state to persist among reboot. So when a process a dies and gets re-created it reads that state back from the filesystem...
 
-# QUESTION ?
+# QUESTION 💬❓
 
 **WHAT MAKES CONTAINERS DIFFERENT TO OTHER PROCESSES ?**
 
